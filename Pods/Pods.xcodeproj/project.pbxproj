@@ -7,33 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B11137BDDE6F2F9ACDCC13627F0DB40 /* Pods-MD5HashTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B16EA51DDDADFD7501B2D331C52577 /* Pods-MD5HashTests-dummy.m */; };
-		3076F5B9AE2996400C9227EA4A1FD843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		7B1D307E076E534E5920E90E2950E0E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		894D30CF4108764F5DA5FCE7741176DF /* Pods-MD5HashTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 551F9E47DC3E5A73C7E903CAA021568A /* Pods-MD5HashTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93FFB6A7C546709441779933AF12053A /* Pods-MD5HashUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8DD7C29F214D6EDDB5C16AD53779BD /* Pods-MD5HashUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99CEBC9043D6276F504CDC330012F6F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		B4F79E4DBEE526A092E8B47038C84BAB /* Pods-MD5Hash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D80B52F05C137B5AAE8E78521678F872 /* Pods-MD5Hash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF2AD33C795A1854DC64B550DAF50773 /* Pods-MD5Hash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F146E62CEBD2E21FEE6F49C6935FE6 /* Pods-MD5Hash-dummy.m */; };
-		C24BDA0EC230DBCB220D4B3FFE2A6F20 /* Pods-MD5HashUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C4916CA54522331FE41A176F1C9CAA /* Pods-MD5HashUITests-dummy.m */; };
+		0FE166075E26A2232FEB9B60A6B044C0 /* DMSwipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52AA91152998F18F2401D90901E8F1 /* DMSwipeCard.swift */; };
+		1A8C2EB26B793B05D4FF7323033355A4 /* Pods-MD5HashUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C4916CA54522331FE41A176F1C9CAA /* Pods-MD5HashUITests-dummy.m */; };
+		329E4E94E5385837EE57362FA7426B8F /* Pods-MD5HashUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8DD7C29F214D6EDDB5C16AD53779BD /* Pods-MD5HashUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33ACCB89057E8EC7AFD977B2E709B40F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5015409D808094ABAD1578C6B0DAF323 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		59C86BDAFBAC6F5A3B1F275A8FEBCB31 /* DMSwipeCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EA1DE8942D931CADDE769FEC96BD90 /* DMSwipeCardsView.swift */; };
+		7D5F8A8B40678B8C2FB917EEF35D525C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8DC48E2F22B2E6CFEA4714EC529AF3E4 /* Pods-MD5HashTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B16EA51DDDADFD7501B2D331C52577 /* Pods-MD5HashTests-dummy.m */; };
+		8ECF4FC3FD8C4261D7F4FDED858709C1 /* DMSwipeCards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A164BF95ECA8501BBFA8A7D23907D6DB /* DMSwipeCards-dummy.m */; };
+		B002A05CE67B4D66314B06E37C10B54C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B72CA54D45596F54D80E12F2135D8D7B /* Pods-MD5Hash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F146E62CEBD2E21FEE6F49C6935FE6 /* Pods-MD5Hash-dummy.m */; };
+		B902888038A4E1D588FC2981FD7B01E5 /* DMSwipeCards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DEC39265A4D8404A56E7641852D6D64 /* DMSwipeCards-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFE6C3D3CC5B84099347D9310F2EC8E9 /* Pods-MD5HashTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 551F9E47DC3E5A73C7E903CAA021568A /* Pods-MD5HashTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5C6242597D472679F9FB2AEE2B877A5 /* Pods-MD5Hash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D80B52F05C137B5AAE8E78521678F872 /* Pods-MD5Hash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0444100CE7FE89E06A2A0C7EECF776B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0071A399690B9A95DB23C23FC8F072;
+			remoteInfo = DMSwipeCards;
+		};
+		4BACCB7EFF522B7F32F030FB2EB21746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0071A399690B9A95DB23C23FC8F072;
+			remoteInfo = DMSwipeCards;
+		};
+		E95A94D6D4F6FADBAA4585BA70190BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0071A399690B9A95DB23C23FC8F072;
+			remoteInfo = DMSwipeCards;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02521F1E738F98DE4513B7825BE9DADD /* Pods-MD5HashTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MD5HashTests-resources.sh"; sourceTree = "<group>"; };
 		02B8B27760DCDA2B88B58EBAEFAF815E /* Pods-MD5HashTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MD5HashTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D00F078B816FA70B0CE0FE2BB3D9568 /* DMSwipeCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DMSwipeCards.framework; path = DMSwipeCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6033F7B5BFB973D4E1B07191FE6FCE /* Pods-MD5Hash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MD5Hash.debug.xcconfig"; sourceTree = "<group>"; };
+		0E52AA91152998F18F2401D90901E8F1 /* DMSwipeCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DMSwipeCard.swift; path = DMSwipeCards/Classes/DMSwipeCard.swift; sourceTree = "<group>"; };
+		0FCB28867C19F71372A215F98CDE60B8 /* Pods_MD5Hash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MD5Hash.framework; path = "Pods-MD5Hash.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1424C387A664A11BA4F57ABE6C63E05A /* Pods_MD5HashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MD5HashTests.framework; path = "Pods-MD5HashTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BCE51992572C515FB8A28D8C8FA372 /* Pods-MD5Hash-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MD5Hash-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1F8DD7C29F214D6EDDB5C16AD53779BD /* Pods-MD5HashUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MD5HashUITests-umbrella.h"; sourceTree = "<group>"; };
 		22DA89DF20216DD4A6FD9319E15EE0B0 /* Pods-MD5HashUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MD5HashUITests-frameworks.sh"; sourceTree = "<group>"; };
-		2DFBE7DE708CED574F54D76746C6B6CD /* Pods_MD5Hash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MD5Hash.framework; path = "Pods-MD5Hash.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		356F5116C2BF27D0D726C95995678103 /* Pods-MD5Hash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MD5Hash.release.xcconfig"; sourceTree = "<group>"; };
 		3E9FF064E6F2A20787354DAB5D81A768 /* Pods-MD5HashUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MD5HashUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		42B49FC3DA0AC6DC75F77925D378AFC5 /* Pods-MD5HashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MD5HashTests.debug.xcconfig"; sourceTree = "<group>"; };
 		486C248BB22C7539ED6B0477D35664FA /* Pods-MD5Hash-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MD5Hash-acknowledgements.plist"; sourceTree = "<group>"; };
+		527CE3DE9E390B315D4E80A1F99F3645 /* DMSwipeCards.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMSwipeCards.xcconfig; sourceTree = "<group>"; };
 		551F9E47DC3E5A73C7E903CAA021568A /* Pods-MD5HashTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MD5HashTests-umbrella.h"; sourceTree = "<group>"; };
 		573B4EA52CC97DB7E128A967A38D48D9 /* Pods-MD5HashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MD5HashUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E39F52E902578D8A46F3FCED9F82527 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6837A088E295B5B08CAE60073AE994F7 /* Pods-MD5HashUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MD5HashUITests-resources.sh"; sourceTree = "<group>"; };
-		7ED2B23C45EEFAE3A7DFEAF47E11E794 /* Pods_MD5HashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MD5HashUITests.framework; path = "Pods-MD5HashUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEC39265A4D8404A56E7641852D6D64 /* DMSwipeCards-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMSwipeCards-umbrella.h"; sourceTree = "<group>"; };
+		742F41AEA83F464B16610A14F9BCD30B /* DMSwipeCards-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMSwipeCards-prefix.pch"; sourceTree = "<group>"; };
 		830569CE967C1F2133CE4BE06CF3969F /* Pods-MD5HashUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MD5HashUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		83260D0892994682AB43D552520307D2 /* Pods-MD5HashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MD5HashTests.release.xcconfig"; sourceTree = "<group>"; };
 		86B16EA51DDDADFD7501B2D331C52577 /* Pods-MD5HashTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MD5HashTests-dummy.m"; sourceTree = "<group>"; };
@@ -43,47 +78,66 @@
 		91FB254342BD02C22CAA6B96EA035857 /* Pods-MD5HashTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MD5HashTests-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96053C66AD7A9E0B3D747371E3919940 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A2CC0036F1C62A6AC93EA3F551DB852 /* Pods_MD5HashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MD5HashTests.framework; path = "Pods-MD5HashTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B53297EFCF691FF0D3B263938117EED /* Pods_MD5HashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MD5HashUITests.framework; path = "Pods-MD5HashUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A164BF95ECA8501BBFA8A7D23907D6DB /* DMSwipeCards-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMSwipeCards-dummy.m"; sourceTree = "<group>"; };
 		C1B17A1CB9202E0E89B38D48A1B9405E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C42579FD3A83341320D913FD2C6D8B86 /* Pods-MD5Hash-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MD5Hash-resources.sh"; sourceTree = "<group>"; };
 		C4FA49E7A8788751C48F1B7F3FD2A3A0 /* Pods-MD5HashTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MD5HashTests.modulemap"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CCDF9C1D293938993F9A73C3DF1FECF5 /* Pods-MD5Hash-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MD5Hash-frameworks.sh"; sourceTree = "<group>"; };
 		D4C4916CA54522331FE41A176F1C9CAA /* Pods-MD5HashUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MD5HashUITests-dummy.m"; sourceTree = "<group>"; };
+		D5EA1DE8942D931CADDE769FEC96BD90 /* DMSwipeCardsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DMSwipeCardsView.swift; path = DMSwipeCards/Classes/DMSwipeCardsView.swift; sourceTree = "<group>"; };
 		D80B52F05C137B5AAE8E78521678F872 /* Pods-MD5Hash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MD5Hash-umbrella.h"; sourceTree = "<group>"; };
+		D8BA465F7933DBFBCF5897310177C82B /* DMSwipeCards.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DMSwipeCards.modulemap; sourceTree = "<group>"; };
 		DA35D51900C0A881D5D855AEC33FFC34 /* Pods-MD5HashUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MD5HashUITests.modulemap"; sourceTree = "<group>"; };
 		E101A390D7975A5D2DA3E42669347271 /* Pods-MD5HashTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MD5HashTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E54E98DC11B5096C8DA4ECA90C39D550 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B96B9760FC697CC7312A5856A00BDEAA /* Frameworks */ = {
+		01980297F8DD9C5D5AD44A47909B518B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99CEBC9043D6276F504CDC330012F6F3 /* Foundation.framework in Frameworks */,
+				B002A05CE67B4D66314B06E37C10B54C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3EDDE96EED5D8BE7DA0CA4BEDECDFE5 /* Frameworks */ = {
+		258DF7E77F4440336070129AFA461340 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3076F5B9AE2996400C9227EA4A1FD843 /* Foundation.framework in Frameworks */,
+				33ACCB89057E8EC7AFD977B2E709B40F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0B142A910D685C70AB00D291FD77338 /* Frameworks */ = {
+		68D88B42FC2A03128D7747313215E2BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B1D307E076E534E5920E90E2950E0E6 /* Foundation.framework in Frameworks */,
+				5015409D808094ABAD1578C6B0DAF323 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB9C18A06AC0A6C032A7CBDCFE5FE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5F8A8B40678B8C2FB917EEF35D525C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A87522716D39F9AD69003C5F4C10252 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				431202A6BBDE3CD5DB688556A7918E54 /* DMSwipeCards */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1C37D790550BDA15E7A3D47E4D5D5F13 /* Pods-MD5Hash */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,14 +156,26 @@
 			path = "Target Support Files/Pods-MD5Hash";
 			sourceTree = "<group>";
 		};
-		51DE435CCC0E0CDCA171942D3A35BE53 /* Products */ = {
+		3616169477C7A0F97102A6418DA0E560 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DFBE7DE708CED574F54D76746C6B6CD /* Pods_MD5Hash.framework */,
-				9A2CC0036F1C62A6AC93EA3F551DB852 /* Pods_MD5HashTests.framework */,
-				7ED2B23C45EEFAE3A7DFEAF47E11E794 /* Pods_MD5HashUITests.framework */,
+				0D00F078B816FA70B0CE0FE2BB3D9568 /* DMSwipeCards.framework */,
+				0FCB28867C19F71372A215F98CDE60B8 /* Pods_MD5Hash.framework */,
+				1424C387A664A11BA4F57ABE6C63E05A /* Pods_MD5HashTests.framework */,
+				9B53297EFCF691FF0D3B263938117EED /* Pods_MD5HashUITests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		431202A6BBDE3CD5DB688556A7918E54 /* DMSwipeCards */ = {
+			isa = PBXGroup;
+			children = (
+				0E52AA91152998F18F2401D90901E8F1 /* DMSwipeCard.swift */,
+				D5EA1DE8942D931CADDE769FEC96BD90 /* DMSwipeCardsView.swift */,
+				B910A67AFA35ECE1399AC5A4C40DEF5E /* Support Files */,
+			);
+			name = DMSwipeCards;
+			path = DMSwipeCards;
 			sourceTree = "<group>";
 		};
 		56180BB34336237D27527D2E3593C630 /* Pods-MD5HashUITests */ = {
@@ -143,7 +209,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				51DE435CCC0E0CDCA171942D3A35BE53 /* Products */,
+				1A87522716D39F9AD69003C5F4C10252 /* Pods */,
+				3616169477C7A0F97102A6418DA0E560 /* Products */,
 				AE743BAC2DF72C48B21D0B0068D7C183 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -156,6 +223,20 @@
 				56180BB34336237D27527D2E3593C630 /* Pods-MD5HashUITests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B910A67AFA35ECE1399AC5A4C40DEF5E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8BA465F7933DBFBCF5897310177C82B /* DMSwipeCards.modulemap */,
+				527CE3DE9E390B315D4E80A1F99F3645 /* DMSwipeCards.xcconfig */,
+				A164BF95ECA8501BBFA8A7D23907D6DB /* DMSwipeCards-dummy.m */,
+				742F41AEA83F464B16610A14F9BCD30B /* DMSwipeCards-prefix.pch */,
+				6DEC39265A4D8404A56E7641852D6D64 /* DMSwipeCards-umbrella.h */,
+				5E39F52E902578D8A46F3FCED9F82527 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DMSwipeCards";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -187,82 +268,110 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3DA539DD6F7B431C4287EFE76A37D3FB /* Headers */ = {
+		14C5EB949108343AD012CAD9FBB18E3A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93FFB6A7C546709441779933AF12053A /* Pods-MD5HashUITests-umbrella.h in Headers */,
+				F5C6242597D472679F9FB2AEE2B877A5 /* Pods-MD5Hash-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8514C30D1DC9F3C4594A3529BC8AD326 /* Headers */ = {
+		5D7A05CCD66664A0B78F3E1A52F01B30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				894D30CF4108764F5DA5FCE7741176DF /* Pods-MD5HashTests-umbrella.h in Headers */,
+				B902888038A4E1D588FC2981FD7B01E5 /* DMSwipeCards-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		900260348E19F9922248C80C0E4DD103 /* Headers */ = {
+		717C61FD5545DED65D143DF08B958CF4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4F79E4DBEE526A092E8B47038C84BAB /* Pods-MD5Hash-umbrella.h in Headers */,
+				CFE6C3D3CC5B84099347D9310F2EC8E9 /* Pods-MD5HashTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1A574CA14A30BBE4E438675B3E62FED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329E4E94E5385837EE57362FA7426B8F /* Pods-MD5HashUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		85262A4DDF9B12CB7DEC8CD295F48A39 /* Pods-MD5HashTests */ = {
+		DBD718828E14ACB8F2D720D56F5981C4 /* Pods-MD5Hash */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E6D3FE98280D46613890CF16D9AB25D /* Build configuration list for PBXNativeTarget "Pods-MD5HashTests" */;
+			buildConfigurationList = D04C2C779E6A091A558F7AD351C5B568 /* Build configuration list for PBXNativeTarget "Pods-MD5Hash" */;
 			buildPhases = (
-				A7660AC3A521E8506BC885D4B8D43439 /* Sources */,
-				F0B142A910D685C70AB00D291FD77338 /* Frameworks */,
-				8514C30D1DC9F3C4594A3529BC8AD326 /* Headers */,
+				7B28E311C619E076F9D1A3A19ECA6C33 /* Sources */,
+				01980297F8DD9C5D5AD44A47909B518B /* Frameworks */,
+				14C5EB949108343AD012CAD9FBB18E3A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-MD5HashTests";
-			productName = "Pods-MD5HashTests";
-			productReference = 9A2CC0036F1C62A6AC93EA3F551DB852 /* Pods_MD5HashTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C5FCE45DDAB172DED0DBF5629FACAF64 /* Pods-MD5HashUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 60D9146396CCE793501A02CD9A46D1A5 /* Build configuration list for PBXNativeTarget "Pods-MD5HashUITests" */;
-			buildPhases = (
-				4B35202ABDBCD9F9C11697206FE1AB58 /* Sources */,
-				B96B9760FC697CC7312A5856A00BDEAA /* Frameworks */,
-				3DA539DD6F7B431C4287EFE76A37D3FB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-MD5HashUITests";
-			productName = "Pods-MD5HashUITests";
-			productReference = 7ED2B23C45EEFAE3A7DFEAF47E11E794 /* Pods_MD5HashUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EFAE738CECC54A9DABBEA70B45B96842 /* Pods-MD5Hash */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1255F099D42F5CD2D03A7E5BCF8DC04B /* Build configuration list for PBXNativeTarget "Pods-MD5Hash" */;
-			buildPhases = (
-				01BE727B17CE1E88EA63630C38F42162 /* Sources */,
-				C3EDDE96EED5D8BE7DA0CA4BEDECDFE5 /* Frameworks */,
-				900260348E19F9922248C80C0E4DD103 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				F994A74E1101BDA7D168926A9CFEDA41 /* PBXTargetDependency */,
 			);
 			name = "Pods-MD5Hash";
 			productName = "Pods-MD5Hash";
-			productReference = 2DFBE7DE708CED574F54D76746C6B6CD /* Pods_MD5Hash.framework */;
+			productReference = 0FCB28867C19F71372A215F98CDE60B8 /* Pods_MD5Hash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3D932844D1A1926001834E399284963 /* Pods-MD5HashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B193DB3895A456EC14B0AA4F0E4106F7 /* Build configuration list for PBXNativeTarget "Pods-MD5HashTests" */;
+			buildPhases = (
+				0913D1729012D26DFD56FA186BDDC148 /* Sources */,
+				68D88B42FC2A03128D7747313215E2BD /* Frameworks */,
+				717C61FD5545DED65D143DF08B958CF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80C8DCACDA0043327D97B019EE956E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-MD5HashTests";
+			productName = "Pods-MD5HashTests";
+			productReference = 1424C387A664A11BA4F57ABE6C63E05A /* Pods_MD5HashTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0F72887E7DA9487B1E3A8BF786C7C4A /* Pods-MD5HashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9C76281FFF6703B4BD564DC1B0B7C0 /* Build configuration list for PBXNativeTarget "Pods-MD5HashUITests" */;
+			buildPhases = (
+				84932810227AEAB8E8A788A106FD8E42 /* Sources */,
+				258DF7E77F4440336070129AFA461340 /* Frameworks */,
+				F1A574CA14A30BBE4E438675B3E62FED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF019D8FDD115C275CDC5584D1A0556D /* PBXTargetDependency */,
+			);
+			name = "Pods-MD5HashUITests";
+			productName = "Pods-MD5HashUITests";
+			productReference = 9B53297EFCF691FF0D3B263938117EED /* Pods_MD5HashUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA0071A399690B9A95DB23C23FC8F072 /* DMSwipeCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354293B850292694E1F3B6321B05E31C /* Build configuration list for PBXNativeTarget "DMSwipeCards" */;
+			buildPhases = (
+				8F52F4DF3D6D32E67D1E76C470A45E22 /* Sources */,
+				EBB9C18A06AC0A6C032A7CBDCFE5FE9B /* Frameworks */,
+				5D7A05CCD66664A0B78F3E1A52F01B30 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMSwipeCards;
+			productName = DMSwipeCards;
+			productReference = 0D00F078B816FA70B0CE0FE2BB3D9568 /* DMSwipeCards.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -282,46 +391,78 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 51DE435CCC0E0CDCA171942D3A35BE53 /* Products */;
+			productRefGroup = 3616169477C7A0F97102A6418DA0E560 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EFAE738CECC54A9DABBEA70B45B96842 /* Pods-MD5Hash */,
-				85262A4DDF9B12CB7DEC8CD295F48A39 /* Pods-MD5HashTests */,
-				C5FCE45DDAB172DED0DBF5629FACAF64 /* Pods-MD5HashUITests */,
+				FA0071A399690B9A95DB23C23FC8F072 /* DMSwipeCards */,
+				DBD718828E14ACB8F2D720D56F5981C4 /* Pods-MD5Hash */,
+				E3D932844D1A1926001834E399284963 /* Pods-MD5HashTests */,
+				F0F72887E7DA9487B1E3A8BF786C7C4A /* Pods-MD5HashUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		01BE727B17CE1E88EA63630C38F42162 /* Sources */ = {
+		0913D1729012D26DFD56FA186BDDC148 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF2AD33C795A1854DC64B550DAF50773 /* Pods-MD5Hash-dummy.m in Sources */,
+				8DC48E2F22B2E6CFEA4714EC529AF3E4 /* Pods-MD5HashTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B35202ABDBCD9F9C11697206FE1AB58 /* Sources */ = {
+		7B28E311C619E076F9D1A3A19ECA6C33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C24BDA0EC230DBCB220D4B3FFE2A6F20 /* Pods-MD5HashUITests-dummy.m in Sources */,
+				B72CA54D45596F54D80E12F2135D8D7B /* Pods-MD5Hash-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7660AC3A521E8506BC885D4B8D43439 /* Sources */ = {
+		84932810227AEAB8E8A788A106FD8E42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B11137BDDE6F2F9ACDCC13627F0DB40 /* Pods-MD5HashTests-dummy.m in Sources */,
+				1A8C2EB26B793B05D4FF7323033355A4 /* Pods-MD5HashUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F52F4DF3D6D32E67D1E76C470A45E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE166075E26A2232FEB9B60A6B044C0 /* DMSwipeCard.swift in Sources */,
+				8ECF4FC3FD8C4261D7F4FDED858709C1 /* DMSwipeCards-dummy.m in Sources */,
+				59C86BDAFBAC6F5A3B1F275A8FEBCB31 /* DMSwipeCardsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D80C8DCACDA0043327D97B019EE956E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DMSwipeCards;
+			target = FA0071A399690B9A95DB23C23FC8F072 /* DMSwipeCards */;
+			targetProxy = E95A94D6D4F6FADBAA4585BA70190BC8 /* PBXContainerItemProxy */;
+		};
+		EF019D8FDD115C275CDC5584D1A0556D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DMSwipeCards;
+			target = FA0071A399690B9A95DB23C23FC8F072 /* DMSwipeCards */;
+			targetProxy = 4BACCB7EFF522B7F32F030FB2EB21746 /* PBXContainerItemProxy */;
+		};
+		F994A74E1101BDA7D168926A9CFEDA41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DMSwipeCards;
+			target = FA0071A399690B9A95DB23C23FC8F072 /* DMSwipeCards */;
+			targetProxy = 0444100CE7FE89E06A2A0C7EECF776B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		10FA17B2A4694464FF0ED2E8958CD25B /* Release */ = {
+		0BFD0DD2EF1ECF25A4705324E629EC0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83260D0892994682AB43D552520307D2 /* Pods-MD5HashTests.release.xcconfig */;
 			buildSettings = {
@@ -338,7 +479,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MD5HashTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MD5HashTests/Pods-MD5HashTests.modulemap";
@@ -356,82 +497,7 @@
 			};
 			name = Release;
 		};
-		584A36CE54C68E2875CADF02076D12F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D6033F7B5BFB973D4E1B07191FE6FCE /* Pods-MD5Hash.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MD5Hash/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MD5Hash/Pods-MD5Hash.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MD5Hash;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		673254EEAF0B5BF4596080C749645884 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8764382090D930DA38E8566B0F505DB0 /* Debug */ = {
+		1A3524D18C5B324323E12DEF57B72638 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89DE48B2B059557BA0156C2DB9303858 /* Pods-MD5HashUITests.debug.xcconfig */;
 			buildSettings = {
@@ -448,7 +514,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MD5HashUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MD5HashUITests/Pods-MD5HashUITests.modulemap";
@@ -460,13 +526,14 @@
 				PRODUCT_NAME = Pods_MD5HashUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		A986907DE9EF84D321F8ADBB20542007 /* Release */ = {
+		1B74CE9692BA85C46B5935B27EA8E852 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 573B4EA52CC97DB7E128A967A38D48D9 /* Pods-MD5HashUITests.release.xcconfig */;
 			buildSettings = {
@@ -483,7 +550,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MD5HashUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MD5HashUITests/Pods-MD5HashUITests.modulemap";
@@ -501,9 +568,41 @@
 			};
 			name = Release;
 		};
-		AB29C4A7CEEDFA77380BF162D84FBD2F /* Debug */ = {
+		320F2150E6B507A27D28881A4A91BAFE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42B49FC3DA0AC6DC75F77925D378AFC5 /* Pods-MD5HashTests.debug.xcconfig */;
+			baseConfigurationReference = 527CE3DE9E390B315D4E80A1F99F3645 /* DMSwipeCards.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DMSwipeCards/DMSwipeCards-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DMSwipeCards/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DMSwipeCards/DMSwipeCards.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DMSwipeCards;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		597A78F2ECFCE268ACF6223B6590E22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6033F7B5BFB973D4E1B07191FE6FCE /* Pods-MD5Hash.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -516,27 +615,28 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MD5HashTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MD5Hash/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MD5HashTests/Pods-MD5HashTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MD5Hash/Pods-MD5Hash.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MD5HashTests;
+				PRODUCT_NAME = Pods_MD5Hash;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -572,7 +672,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -580,7 +680,116 @@
 			};
 			name = Debug;
 		};
-		F382B349AD867F502369095E8F6C3E25 /* Release */ = {
+		7E3C499DD75A691361B8D7A0315D3D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B49FC3DA0AC6DC75F77925D378AFC5 /* Pods-MD5HashTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MD5HashTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MD5HashTests/Pods-MD5HashTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MD5HashTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCEFCBACE451F2B862BF3C749E9FEDFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527CE3DE9E390B315D4E80A1F99F3645 /* DMSwipeCards.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DMSwipeCards/DMSwipeCards-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DMSwipeCards/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DMSwipeCards/DMSwipeCards.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DMSwipeCards;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0EB43CFB2226997B6FED7DC41F21462 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 356F5116C2BF27D0D726C95995678103 /* Pods-MD5Hash.release.xcconfig */;
 			buildSettings = {
@@ -597,7 +806,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MD5Hash/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MD5Hash/Pods-MD5Hash.modulemap";
@@ -618,11 +827,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1255F099D42F5CD2D03A7E5BCF8DC04B /* Build configuration list for PBXNativeTarget "Pods-MD5Hash" */ = {
+		1F9C76281FFF6703B4BD564DC1B0B7C0 /* Build configuration list for PBXNativeTarget "Pods-MD5HashUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				584A36CE54C68E2875CADF02076D12F3 /* Debug */,
-				F382B349AD867F502369095E8F6C3E25 /* Release */,
+				1A3524D18C5B324323E12DEF57B72638 /* Debug */,
+				1B74CE9692BA85C46B5935B27EA8E852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -630,26 +839,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
-				673254EEAF0B5BF4596080C749645884 /* Release */,
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E6D3FE98280D46613890CF16D9AB25D /* Build configuration list for PBXNativeTarget "Pods-MD5HashTests" */ = {
+		354293B850292694E1F3B6321B05E31C /* Build configuration list for PBXNativeTarget "DMSwipeCards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB29C4A7CEEDFA77380BF162D84FBD2F /* Debug */,
-				10FA17B2A4694464FF0ED2E8958CD25B /* Release */,
+				BCEFCBACE451F2B862BF3C749E9FEDFE /* Debug */,
+				320F2150E6B507A27D28881A4A91BAFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60D9146396CCE793501A02CD9A46D1A5 /* Build configuration list for PBXNativeTarget "Pods-MD5HashUITests" */ = {
+		B193DB3895A456EC14B0AA4F0E4106F7 /* Build configuration list for PBXNativeTarget "Pods-MD5HashTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8764382090D930DA38E8566B0F505DB0 /* Debug */,
-				A986907DE9EF84D321F8ADBB20542007 /* Release */,
+				7E3C499DD75A691361B8D7A0315D3D99 /* Debug */,
+				0BFD0DD2EF1ECF25A4705324E629EC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04C2C779E6A091A558F7AD351C5B568 /* Build configuration list for PBXNativeTarget "Pods-MD5Hash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				597A78F2ECFCE268ACF6223B6590E22C /* Debug */,
+				C0EB43CFB2226997B6FED7DC41F21462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
