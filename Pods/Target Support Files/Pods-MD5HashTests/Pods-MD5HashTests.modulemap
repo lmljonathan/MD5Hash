@@ -1,6 +1,0 @@
-framework module Pods_MD5HashTests {
-  umbrella header "Pods-MD5HashTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
