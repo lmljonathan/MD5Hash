@@ -13,29 +13,48 @@ class SwipeViewController: UIViewController {
     
     private var swipeView: DMSwipeCardsView<String>!
     private var count = 0
+    private var dataHandler = DataHandler()
+    
+    private var memes: [String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        dataHandler.getMemes { (memes) in
+            if let memes = memes{
+                self.memes = memes
+            }
+        }
+        
         let viewGenerator: (String, CGRect) -> (UIView) = { (element: String, frame: CGRect) -> (UIView) in
-            let container = UIView(frame: CGRect(x: 30, y: 20, width: frame.width - 60, height: frame.height - 40))
-            let label = UILabel(frame: container.bounds)
-            label.text = element
-            label.textAlignment = .center
-            label.backgroundColor = UIColor.white
-            label.font = UIFont.systemFont(ofSize: 48, weight: UIFontWeightThin)
-            label.clipsToBounds = true
-            label.layer.cornerRadius = 16
-            container.addSubview(label)
+            // let container = UIView(frame: CGRect(x: 0, y: -60, width: frame.width - 60, height: frame.height - 40))
+//            let label = UILabel(frame: container.bounds)
+//            label.text = element
+//            label.textAlignment = .center
+//            label.backgroundColor = UIColor.white
+//            label.font = UIFont.systemFont(ofSize: 48, weight: UIFontWeightThin)
+//            label.clipsToBounds = true
+//            label.layer.cornerRadius = 16
+//            container.addSubview(label)
+//            
+            // image
+            let image = UIImageView(frame: CGRect(x: 0, y: -80, width: frame.width - 60, height: frame.height - 40))
+            image.contentMode = .scaleAspectFit
+            image.setWithURL("http://www.abc.net.au/news/image/7797710-1x1-940x940.jpg")
+            image.center = self.view.center
+            // image.backgroundColor = .black
+            // container.addSubview(image)
             
-            container.layer.shadowRadius = 4
-            container.layer.shadowOpacity = 1.0
-            container.layer.shadowColor = UIColor(white: 0.9, alpha: 1.0).cgColor
-            container.layer.shadowOffset = CGSize(width: 0, height: 0)
-            container.layer.shouldRasterize = true
-            container.layer.rasterizationScale = UIScreen.main.scale
+            image.layer.shadowRadius = 4
+            image.layer.cornerRadius = 4
+            image.layer.shadowOpacity = 0.4
+            image.layer.shadowColor = UIColor.black.cgColor //UIColor(white: 0.9, alpha: 1.0).cgColor
+            image.layer.shadowOffset = CGSize(width: 0, height: 0)
+            image.layer.shouldRasterize = true
+            image.layer.rasterizationScale = UIScreen.main.scale
             
-            return container
+            
+            return image
         }
         
         let overlayGenerator: (SwipeMode, CGRect) -> (UIView) = { (mode: SwipeMode, frame: CGRect) -> (UIView) in
